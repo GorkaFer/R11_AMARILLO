@@ -45,6 +45,9 @@ Este notebook entrena y compara un sistema jerárquico de 3 niveles (detección 
 ## 06_Simulaciones.ipynb
 Este notebook simula con SimPy una fábrica de motores eléctricos durante 5 días, modelando robots, operarios, stock de materiales y líneas de ensamblado, para evaluar métricas de producción (motores producidos, defectos, esperas) bajo distintas configuraciones de recursos.
 
+## R11_Amarillo.json
+Este archivo contiene la exportación completa del flujo de Node-RED desarrollado para el proyecto. Integra la ingesta simulada de datos y su transformación en tiempo real mediante JavaScript, desplegando un dashboard interactivo para monitorizar la optimización de los motores (Reinforcement Learning) y evaluar visualmente los escenarios de producción de la línea de montaje.
+
 ## Integrantes
 - Anne Martin Basterrechea
 - Gorka Fernandez Arnaiz
