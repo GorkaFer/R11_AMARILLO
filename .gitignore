@@ -6,5 +6,8 @@
 *.ini
 *.gpickle
 *.pkl
+*.joblib
+*.url
+*.pyc
 __pycache__/
 catboost_info/
