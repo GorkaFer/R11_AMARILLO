@@ -1,0 +1,1 @@
+conda env create --file entorno_AMARILLO_RETO11.yml
