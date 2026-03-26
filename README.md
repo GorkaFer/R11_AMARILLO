@@ -15,29 +15,29 @@ Datos generados después de la ejecucion de distintos scripts.
 ## Modelos
 En esta carpeta se almacenarán los modelos realizados.
 
-## 01_Preprocesamiento_Analisis.ipynb
+## 01_Optimization_MOO.ipynb
 
 
 ## 02_RL_v1.ipynb
-
+Este notebook hace un grid search de hiperparámetros (alpha, gamma, epsilon_decay) para Q-Learning sobre el entorno motorEnv, entrenando las 27 combinaciones posibles y seleccionando la que minimiza el número de pasos para llevar el motor al punto de mínima potencia.
 
 ## 03_RL_v2.ipynb
-
+Este notebook entrena un agente de Q-Learning (aprendizaje por refuerzo) para controlar un entorno de motor (motorEnv), optimizando una política de 4 acciones sobre ~180.000 estados posibles mediante una Q-Table.
 
 ## feature_extraction_functions.py
-
+Contiene las funciones necesarias para la ejecucion del script 04_feature_extraction.ipynb
 
 ## 04_feature_extraction.ipynb
-Antes de la ejecucuion de este script, es necesario ir al link que aparece en el bearing_fault_full.url, descargarse los datos y meterlos en la carpeta Datos/Originales/03_Validacion
+Antes de la ejecucuion de este script, es necesario ir al link que aparece en el bearing_fault_full.url, descargarse los datos y meterlos en la carpeta Datos/Originales/03_Validacion. Este notebook extrae características (features) en dominio temporal y frecuencial de señales de vibración de un motor, a partir de ficheros CSV etiquetados con distintos tipos de fallo (desalineamiento, desequilibrio, fallos de rodamiento, etc.), para construir un dataset listo para entrenar modelos de detección de anomalías.
 
 ## training_utils_definitive.py
-
+Contiene las funciones necesarias para la ejecucion del script 05_training_hierarchical_definitive.ipynb
 
 ## 05_training_hierarchical_definitive.ipynb
-
+Este notebook entrena y compara un sistema jerárquico de 3 niveles (detección de anomalía → tipo de fallo → severidad) usando RandomForest y ExtraTrees sobre features temporales, frecuenciales y STFT de señales de vibración, seleccionando y guardando el mejor modelo para cada nivel.
 
 ## 06_Simulaciones.ipynb
-
+Este notebook simula con SimPy una fábrica de motores eléctricos durante 5 días, modelando robots, operarios, stock de materiales y líneas de ensamblado, para evaluar métricas de producción (motores producidos, defectos, esperas) bajo distintas configuraciones de recursos.
 
 ## Integrantes
 - Anne Martin Basterrechea
