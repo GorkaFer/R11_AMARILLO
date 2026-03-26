@@ -28,7 +28,7 @@ En esta carpeta se almacenarán los modelos realizados.
 
 
 ## 04_feature_extraction.ipynb
-
+Antes de la ejecucuion de este script, es necesario ir al link que aparece en el bearing_fault_full.url, descargarse los datos y meterlos en la carpeta Datos/Originales/03_Validacion
 
 ## training_utils_definitive.py
 
