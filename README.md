@@ -18,8 +18,14 @@ En esta carpeta se almacenarán los modelos realizados.
 ## 01_Optimization_MOO.ipynb
 
 
+## env_R11_v1.py
+Es el entorno Gymnasium (motorEnv) que define el espacio de operación de un motor como una cuadrícula 2D (var1, var2), permitiendo al agente moverse en 4 direcciones con recompensa +1000 al alcanzar el punto de mínima potencia y -1 por cada paso intermedio.
+
 ## 02_RL_v1.ipynb
 Este notebook hace un grid search de hiperparámetros (alpha, gamma, epsilon_decay) para Q-Learning sobre el entorno motorEnv, entrenando las 27 combinaciones posibles y seleccionando la que minimiza el número de pasos para llevar el motor al punto de mínima potencia.
+
+## env_R11_v2.py
+Es el entorno Gymnasium (motorEnv) que define el espacio de estados y acciones para el agente de RL: carga un mapa de puntos de operación del motor (var1, var2, w) y permite moverse en 4 direcciones, dando recompensa +1000 al alcanzar el punto de mínima potencia y -1 en cada paso intermedio.
 
 ## 03_RL_v2.ipynb
 Este notebook entrena un agente de Q-Learning (aprendizaje por refuerzo) para controlar un entorno de motor (motorEnv), optimizando una política de 4 acciones sobre ~180.000 estados posibles mediante una Q-Table.
