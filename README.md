@@ -1,7 +1,7 @@
 # Reto_11_Grupo_Amarillo
 Cosas a tener en cuenta:
 - Los scripts debrán ejecutarse en orden.
-- Se hará uso de los .csv proporcionados por Mondragon Unibertsitatea y meterlos en la carpeta Datos/Originales para poder resolver el reto.
+- Se hará uso de los .csv proporcionados por Mondragon Unibertsitatea y para poder ejecutar cada notebook sera necesario añadirlos en la carpeta Datos/Originales para poder resolver el reto (al extraer el zip, se extraen los datos en una carpeta Datos, dejarlo asi, la ruta de los datos debera ser la siguiente: Datos/Originales/Datos/...).
 
 ## Datos
 En estas carpetas estan o se tienen que ubicar todos los datos utilizados.
