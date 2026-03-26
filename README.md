@@ -16,7 +16,7 @@ Datos generados después de la ejecucion de distintos scripts.
 En esta carpeta se almacenarán los modelos realizados.
 
 ## 01_Optimization_MOO.ipynb
-
+Este notebook entrena modelos subrogados (RandomForest, XGBoost, etc.) sobre parámetros de diseño de un motor eléctrico y los usa como función objetivo en una optimización multiobjetivo (NSGA-II/III, SPEA2) para encontrar la frontera de Pareto que minimiza simultáneamente coste de material, cogging, pérdida de eficiencia y rizado de par.
 
 ## env_R11_v1.py
 Es el entorno Gymnasium (motorEnv) que define el espacio de operación de un motor como una cuadrícula 2D (var1, var2), permitiendo al agente moverse en 4 direcciones con recompensa +1000 al alcanzar el punto de mínima potencia y -1 por cada paso intermedio.
