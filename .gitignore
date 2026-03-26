@@ -1,0 +1,10 @@
+*.csv
+*.pdf
+*.npz
+*.pt
+*.gz
+*.ini
+*.gpickle
+*.pkl
+__pycache__/
+catboost_info/
