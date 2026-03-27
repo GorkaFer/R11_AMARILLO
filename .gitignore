@@ -9,5 +9,6 @@
 *.joblib
 *.url
 *.pyc
+*.json
 __pycache__/
 catboost_info/
